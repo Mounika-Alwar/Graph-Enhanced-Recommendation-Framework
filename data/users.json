@@ -1,0 +1,265 @@
+{
+  "users": {
+    "u101": {
+      "bio": {
+        "name": "Aarav",
+        "age": 22,
+        "profession": "Data Analyst",
+        "interests": ["python", "sql", "dashboards"],
+        "tags_given": ["helpful", "logical"],
+        "tags_received": ["reliable", "analytical"]
+      },
+      "behaviour": {
+        "logins_per_week": 5,
+        "messages_sent": 18,
+        "profile_views": 42,
+        "time_spent_minutes": 260,
+        "tags_given": ["helpful", "logical"],
+        "tags_received": ["reliable", "analytical"],
+        "interactions": ["u102", "u104", "u108"]
+      },
+      "graph": {
+        "edges": ["u102", "u108"],
+        "tag_interactions": {
+          "u102": ["helpful"],
+          "u108": ["logical"]
+        }
+      }
+    },
+
+    "u102": {
+      "bio": {
+        "name": "Riya",
+        "age": 21,
+        "profession": "UI/UX Designer",
+        "interests": ["design", "figma", "creativity"],
+        "tags_given": ["creative", "detail-oriented"],
+        "tags_received": ["empathetic", "creative"]
+      },
+      "behaviour": {
+        "logins_per_week": 6,
+        "messages_sent": 12,
+        "profile_views": 35,
+        "time_spent_minutes": 310,
+        "tags_given": ["creative", "detail-oriented"],
+        "tags_received": ["empathetic", "creative"],
+        "interactions": ["u101", "u103", "u105"]
+      },
+      "graph": {
+        "edges": ["u101", "u103", "u105"],
+        "tag_interactions": {
+          "u101": ["creative"],
+          "u105": ["detail-oriented"]
+        }
+      }
+    },
+
+    "u103": {
+      "bio": {
+        "name": "Kabir",
+        "age": 23,
+        "profession": "Backend Engineer",
+        "interests": ["apis", "scalability", "java"],
+        "tags_given": ["structured", "fast"],
+        "tags_received": ["technical", "dependable"]
+      },
+      "behaviour": {
+        "logins_per_week": 4,
+        "messages_sent": 25,
+        "profile_views": 28,
+        "time_spent_minutes": 210,
+        "tags_given": ["structured", "fast"],
+        "tags_received": ["technical", "dependable"],
+        "interactions": ["u102", "u104", "u109"]
+      },
+      "graph": {
+        "edges": ["u102", "u104"],
+        "tag_interactions": {
+          "u102": ["structured"]
+        }
+      }
+    },
+
+    "u104": {
+      "bio": {
+        "name": "Meera",
+        "age": 24,
+        "profession": "Marketing Lead",
+        "interests": ["branding", "content", "analytics"],
+        "tags_given": ["communicative", "strategic"],
+        "tags_received": ["confident", "creative"]
+      },
+      "behaviour": {
+        "logins_per_week": 7,
+        "messages_sent": 40,
+        "profile_views": 57,
+        "time_spent_minutes": 420,
+        "tags_given": ["communicative", "strategic"],
+        "tags_received": ["confident", "creative"],
+        "interactions": ["u101", "u103", "u107"]
+      },
+      "graph": {
+        "edges": ["u101", "u103", "u107"],
+        "tag_interactions": {
+          "u107": ["strategic"]
+        }
+      }
+    },
+
+    "u105": {
+      "bio": {
+        "name": "Ananya",
+        "age": 20,
+        "profession": "Product Intern",
+        "interests": ["research", "writing", "roadmaps"],
+        "tags_given": ["thoughtful", "precise"],
+        "tags_received": ["insightful", "friendly"]
+      },
+      "behaviour": {
+        "logins_per_week": 3,
+        "messages_sent": 9,
+        "profile_views": 18,
+        "time_spent_minutes": 145,
+        "tags_given": ["thoughtful", "precise"],
+        "tags_received": ["insightful", "friendly"],
+        "interactions": ["u102", "u106"]
+      },
+      "graph": {
+        "edges": ["u102", "u106"],
+        "tag_interactions": {
+          "u102": ["precise"]
+        }
+      }
+    },
+
+    "u106": {
+      "bio": {
+        "name": "Dev",
+        "age": 22,
+        "profession": "ML Engineer",
+        "interests": ["ai", "pytorch", "optimization"],
+        "tags_given": ["analytical", "focused"],
+        "tags_received": ["smart", "methodical"]
+      },
+      "behaviour": {
+        "logins_per_week": 6,
+        "messages_sent": 30,
+        "profile_views": 48,
+        "time_spent_minutes": 380,
+        "tags_given": ["analytical", "focused"],
+        "tags_received": ["smart", "methodical"],
+        "interactions": ["u105", "u107", "u109"]
+      },
+      "graph": {
+        "edges": ["u105", "u107", "u109"],
+        "tag_interactions": {
+          "u109": ["analytical"]
+        }
+      }
+    },
+
+    "u107": {
+      "bio": {
+        "name": "Zara",
+        "age": 23,
+        "profession": "Content Strategist",
+        "interests": ["writing", "storytelling", "media"],
+        "tags_given": ["creative", "clear"],
+        "tags_received": ["expressive", "original"]
+      },
+      "behaviour": {
+        "logins_per_week": 5,
+        "messages_sent": 22,
+        "profile_views": 36,
+        "time_spent_minutes": 290,
+        "tags_given": ["creative", "clear"],
+        "tags_received": ["expressive", "original"],
+        "interactions": ["u104", "u106", "u108"]
+      },
+      "graph": {
+        "edges": ["u104", "u106", "u108"],
+        "tag_interactions": {
+          "u108": ["clear"]
+        }
+      }
+    },
+
+    "u108": {
+      "bio": {
+        "name": "Ishaan",
+        "age": 24,
+        "profession": "Business Analyst",
+        "interests": ["excel", "decision-making", "supply chain"],
+        "tags_given": ["logical", "efficient"],
+        "tags_received": ["accurate", "resourceful"]
+      },
+      "behaviour": {
+        "logins_per_week": 4,
+        "messages_sent": 17,
+        "profile_views": 30,
+        "time_spent_minutes": 250,
+        "tags_given": ["logical", "efficient"],
+        "tags_received": ["accurate", "resourceful"],
+        "interactions": ["u101", "u107"]
+      },
+      "graph": {
+        "edges": ["u101", "u107"],
+        "tag_interactions": {
+          "u101": ["efficient"]
+        }
+      }
+    },
+
+    "u109": {
+      "bio": {
+        "name": "Vikram",
+        "age": 25,
+        "profession": "Full Stack Developer",
+        "interests": ["react", "node", "systems"],
+        "tags_given": ["helpful", "technical"],
+        "tags_received": ["quick-learner", "collaborative"]
+      },
+      "behaviour": {
+        "logins_per_week": 6,
+        "messages_sent": 33,
+        "profile_views": 55,
+        "time_spent_minutes": 410,
+        "tags_given": ["helpful", "technical"],
+        "tags_received": ["quick-learner", "collaborative"],
+        "interactions": ["u103", "u106"]
+      },
+      "graph": {
+        "edges": ["u103", "u106"],
+        "tag_interactions": {
+          "u106": ["technical"]
+        }
+      }
+    },
+
+    "u110": {
+      "bio": {
+        "name": "Sana",
+        "age": 21,
+        "profession": "Operations Intern",
+        "interests": ["coordination", "planning", "efficiency"],
+        "tags_given": ["organized", "patient"],
+        "tags_received": ["supportive", "calm"]
+      },
+      "behaviour": {
+        "logins_per_week": 2,
+        "messages_sent": 12,
+        "profile_views": 14,
+        "time_spent_minutes": 120,
+        "tags_given": ["organized", "patient"],
+        "tags_received": ["supportive", "calm"],
+        "interactions": ["u107", "u108"]
+      },
+      "graph": {
+        "edges": ["u107", "u108"],
+        "tag_interactions": {
+          "u108": ["organized"]
+        }
+      }
+    }
+  }
+}
