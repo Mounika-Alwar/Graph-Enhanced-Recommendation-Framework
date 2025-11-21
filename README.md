@@ -20,14 +20,3 @@ This framework is implemented in **Python** using **Streamlit** for the interact
 4. **User Clustering:**  
    Cluster users based on unified embeddings and visualize users belonging to the same cluster.
    
-5. **Metrics for Insights:**  
-   Evaluate system effectiveness with metrics like:  
-   - Time to first tag  
-   - Tag diversity per user  
-   - Reciprocity rate  
-   - Recommendation CTR  
-   - Embedding drift
-
----
-
-
